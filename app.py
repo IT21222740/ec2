@@ -12,4 +12,4 @@ app.add_url_rule('/log_water', 'log_water_usage', log_water_usage, methods=['POS
 app.add_url_rule('/get_log_water', 'get_log_water_usage', get_water_usage, methods=['GET'])
 app.add_url_rule('/classify_leak', 'classify_leak', classify_leak, methods=['POST'])
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True) # Run the app
